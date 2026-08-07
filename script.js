@@ -52,9 +52,7 @@ const resetGame=()=>{
      msgcontainer.classList.remove("hide");
 
  }
- const showDraw=()=>{
-        msg.innerText='Match Draw';
-        msgcontainer.classList.remove("hide");}
+ 
  const checkWinner=()=>{
      for (let pattern of winpatterns){
           let pos1Val=boxes[pattern[0]].innerText;
@@ -66,15 +64,10 @@ const resetGame=()=>{
              showWinner(pos1Val);
              
           }
-            else if(pos1Val!="" && pos2Val !=''&& pos3Val!="" ){
-                   if(pos1Val===pos2Val && pos2Val===pos3Val && boxes[0].innerText!="" && boxes[1].innerText!="" && boxes[2].innerText!="" && boxes[3].innerText!="" && boxes[4].innerText!="" && boxes[5].innerText!="" && boxes[6].innerText!="" && boxes[7].innerText!="" && boxes[8].innerText!=""){
-            }
-            {
-                showDraw();
-            }
+            
      }
  }
 };
 newbtn.addEventListener("click",resetGame);
 resetbt.addEventListener("click",resetGame);
- }
+ 
