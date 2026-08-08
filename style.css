@@ -1,6 +1,13 @@
 body{
-    background-color: rgb(104, 173, 109);
+    background-color: rgb(14, 15, 14);
     text-align: center;
+}
+#heading{
+    color: rgb(255, 255, 255);
+    font-size: 3rem;
+    
+
+
 }
 .container{
     height: 70vh;
@@ -24,10 +31,10 @@ body{
     width: 18vmin;
     border-radius: 1rem;
     border:none;
-    box-shadow: 0 0 1rem rgb(0,0, 0, 3);
+    box-shadow: 0 0 1rem rgb(245, 244, 244);
     font-size:8vmin;
-    background-color: rgb(237, 237, 239);
-    color: rgb(0, 0, 0);
+    background-color: rgb(7, 7, 8);
+    color: rgb(244, 242, 242);
 
 }
 #resetbtn{
