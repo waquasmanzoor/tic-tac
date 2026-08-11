@@ -52,7 +52,7 @@ const resetGame=()=>{
      msgcontainer.classList.remove("hide");
 
  }
- 
+    
  const checkWinner=()=>{
      for (let pattern of winpatterns){
           let pos1Val=boxes[pattern[0]].innerText;
